@@ -53,7 +53,7 @@ screen.exitonclick()
 
 
 #DAY19 the turtle game
-
+'''
 from turtle import Turtle, Screen
 import random
 
@@ -90,3 +90,8 @@ while is_race_on:
         turtle.forward(forward_distance)
 
 screen.exitonclick()
+'''
+
+
+
+
