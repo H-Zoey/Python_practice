@@ -1,0 +1,18 @@
+https://learngitbranching.js.org/?demo=&locale=zh_CN
+
+初始化：git init
+将文件暂存：git add 文件名/git add .将所有untracked文件暂存至staging area
+将所有暂存文件撤回：git rm --cached -r .
+提交文件到local repository：git commit -m "comment"，comment指对变动的备注，初次上传可以是“initial commit”，后续可以是“add xxx”
+查看文件状态：git status
+查看GitHub文件与本地文件差异：git diff 文件名
+从GitHub repository拉回本地仓库：git checkout 文件名
+与GitHub链接：git remote add origin http网址/SSH
+推送：git push -u <remote name>(origin) <branch name>(main)
+
+创建新分支：git branch <branch name>
+切换所在分支：git checkout <branch name>
+分支合并到main：git merge <branch name>(需先切换到main)
+和git rebase的区别?git rebase会破坏已推送的提交，而git merge会保留分叉
+
+从remote repository中克隆项目：git clone url(http)
